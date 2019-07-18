@@ -1,0 +1,17 @@
+version: "3"
+services:
+  web:
+    build: ./web
+    image: kisa7/musicplayer:web
+    ports:
+      - "8888:3000"
+    depends_on:
+      - "search"
+      - "charts"
+      - "images"
+  charts:
+    image: kisa7/musicplayer:charts
+  search:
+    image: kisa7/musicplayer:search
+  images:
+    image: kisa7/musicplayer:images
