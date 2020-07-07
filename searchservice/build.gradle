@@ -5,7 +5,7 @@ plugins {
     id "application"
 }
 
-mainClassName = 'de.uniba.dsg.jaxrs.JaxRsServer'
+mainClassName = 'com.searchService.jaxrs.JaxRsServer'
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
@@ -27,6 +27,9 @@ dependencies {
 
     compile 'se.michaelthelin.spotify:spotify-web-api-java:2.1.2'
     testCompile 'org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:2.28'
+
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
 }
 
 

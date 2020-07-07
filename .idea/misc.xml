@@ -6,5 +6,5 @@
     <file type="web" url="file://$PROJECT_DIR$/imagesservice" />
     <file type="web" url="file://$PROJECT_DIR$/searchservice" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="openjdk-14" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8.0_222" project-jdk-type="JavaSDK" />
 </project>
