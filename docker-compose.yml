@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    build: ./web
+    build: web
     image: kisa7/musicplayer:web
     ports:
       - "8888:3000"
