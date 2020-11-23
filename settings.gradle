@@ -1,8 +1,7 @@
 rootProject.name = 'spotify-microservices'
 
-include 'chart-service'
+include 'chartservice'
 include 'searchservice'
-include 'imageservice'
+include 'imagesservice'
 include 'web'
-include 'chart-service'
 
