@@ -1,4 +1,4 @@
-package com.searchService.models;
+package com.chartService.models;
 
 
 import com.wrapper.spotify.model_objects.specification.ArtistSimplified;

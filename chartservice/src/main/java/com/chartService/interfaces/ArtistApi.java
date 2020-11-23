@@ -1,10 +1,9 @@
 package com.chartService.interfaces;
-
-import java.util.List;
+import com.chartService.models.Song;
 
 import javax.jws.WebParam;
 import javax.jws.WebResult;
-import com.searchService.models.Song;
+import java.util.List;
 
 public interface ArtistApi {
    

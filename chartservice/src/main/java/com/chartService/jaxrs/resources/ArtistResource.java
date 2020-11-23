@@ -1,29 +1,23 @@
 package com.chartService.jaxrs.resources;
 
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
-
 import com.chartService.CustomSpotifyApi;
 import com.chartService.interfaces.ArtistApi;
 import com.chartService.jaxrs.exceptions.ClientRequestException;
 import com.chartService.jaxrs.exceptions.RemoteApiException;
 import com.chartService.jaxrs.exceptions.ResourceNotFoundException;
 import com.chartService.models.ErrorMessage;
+import com.chartService.models.Song;
 import com.neovisionaries.i18n.CountryCode;
 import com.wrapper.spotify.exceptions.SpotifyWebApiException;
 import com.wrapper.spotify.model_objects.specification.Track;
 import com.wrapper.spotify.requests.data.artists.GetArtistsTopTracksRequest;
 
-import com.searchService.models.Song;
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 
 // Beyonce: 6vWDO969PvNqNYHIOW5v0m
